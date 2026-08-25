@@ -267,14 +267,98 @@ Người luôn giữ lửa nhiệt huyết, hết mình đóng góp xây dựng 
     </div>
   </section>
 
-  <!-- Nhà Tài Trợ & Đối Tác -->
-  <section id="rivals" class="py-16 bg-white border-y border-slate-200">
+ <!-- Nhà Tài Trợ Chính Thức & Địa Chỉ -->
+  <section id="rivals" class="py-20 bg-slate-50 border-y border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-8">
-        <span class="text-brand-600 font-bold text-xs uppercase tracking-widest">Gắn Kết & Mở Rộng</span>
-        <h3 class="text-xl font-heading font-bold text-slate-900 mt-1">Nhà Tài Trợ Chính Thức & Đối Tác</h3>
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-brand-600 font-bold text-xs uppercase tracking-widest">Đồng Hành & Phát Triển</span>
+        <h2 class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mt-2">Nhà Tài Trợ Chính Thức</h2>
+        <div class="w-16 h-1.5 bg-brand-500 mx-auto mt-4 rounded-full"></div>
       </div>
-      <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6" id="rivals-container"></div>
+
+      <!-- Card Nhà Tài Trợ -->
+      <div class="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-10 shadow-xl shadow-slate-200/50">
+        <div class="grid lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Cột 1: Hình ảnh Quán / Món ăn / Nhà Tài Trợ -->
+          <div class="lg:col-span-4 space-y-4">
+            <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-slate-100 shadow-md bg-slate-100">
+              <!-- Thay link ảnh quán hoặc giữ ảnh minh họa ẩm thực -->
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Lẩu Ếch Lều Quán" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"/>
+            </div>
+            <div class="p-4 bg-orange-50/60 rounded-2xl border border-orange-100/80">
+              <span class="text-xs font-bold text-brand-600 uppercase tracking-wide block">Đơn vị tài trợ ẩm thực & liên hoan</span>
+              <p class="text-xs text-slate-600 mt-1">Điểm hẹn liên hoan, gắn kết tình anh em quen thuộc sau mỗi trận cầu rực lửa của FC AUTO CHUNG ĐỨC.</p>
+            </div>
+          </div>
+
+          <!-- Cột 2: Thông tin chi tiết & Liên hệ -->
+          <div class="lg:col-span-4 space-y-5">
+            <div>
+              <div class="inline-block px-3 py-1 bg-brand-50 text-brand-600 text-xs font-bold rounded-lg mb-2">
+                ẨM THỰC ĐẶC SẮC
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-heading font-black text-slate-900">
+                Lẩu Ếch Lều Quán
+              </h3>
+              <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                Hương vị lẩu ếch măng cay đậm đà, không gian rộng rãi, thoáng mát – nơi lý tưởng cho những buổi tụ họp anh em, bạn bè và người thân.
+              </p>
+            </div>
+
+            <div class="space-y-3 text-sm text-slate-700">
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-orange-100 text-brand-600 flex items-center justify-center shrink-0 mt-0.5">
+                  <i data-lucide="map-pin" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <span class="font-bold text-slate-900 block">Địa chỉ:</span>
+                  <span class="text-slate-600 text-xs sm:text-sm">Số 51 phố Tân Khai, Ngõ 107 Lĩnh Nam, Vĩnh Hưng, Hoàng Mai, Hà Nội</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-orange-100 text-brand-600 flex items-center justify-center shrink-0">
+                  <i data-lucide="phone-call" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <span class="font-bold text-slate-900 block">Đặt bàn / Hotline:</span>
+                  <a href="tel:0988888888" class="text-brand-600 font-bold hover:underline">09xx.xxx.xxx</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-orange-100 text-brand-600 flex items-center justify-center shrink-0">
+                  <i data-lucide="clock" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <span class="font-bold text-slate-900 block">Giờ phục vụ:</span>
+                  <span class="text-slate-600 text-xs sm:text-sm">10:00 – 23:30 (Hằng ngày)</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=51+ph%E1%BB%91+T%C3%A2n+Khai+Ng%C3%B5+107+L%C4%A9nh+Nam+H%C3%A0+N%E1%BB%99i" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm shadow-md shadow-brand-500/20 transition-all">
+              <i data-lucide="navigation" class="w-4 h-4"></i> Chỉ Đường Tới Quán
+            </a>
+          </div>
+
+          <!-- Cột 3: Bản đồ Google Maps chỉ đúng khu vực Tân Khai / Lĩnh Nam -->
+          <div class="lg:col-span-4 h-64 lg:h-full min-h-[280px] rounded-2xl overflow-hidden border border-slate-200 shadow-inner">
+            <iframe 
+              title="Google Map Lẩu Ếch Lều Quán"
+              src="https://maps.google.com/maps?q=51%20ph%E1%BB%91%20T%C3%A2n%20Khai%20L%C4%A9nh%20Nam%20H%C3%A0%20N%E1%BB%99i&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              class="w-full h-full border-0" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </section>
 
