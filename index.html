@@ -81,18 +81,20 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-36 overflow-hidden flex items-center min-h-[90vh]">
+  <section id="home" class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden flex items-center min-h-[90vh]">
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(249,115,22,0.18),transparent_50%)]"></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="grid md:grid-cols-12 gap-12 items-center">
-        <div class="md:col-span-7 space-y-6 text-center md:text-left">
+      <div class="grid md:grid-cols-12 gap-10 items-center">
+        
+        <!-- Text Hero -->
+        <div class="md:col-span-6 space-y-6 text-center md:text-left">
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-500/30 bg-brand-500/10 text-brand-400 text-sm font-bold">
             <i data-lucide="flame" class="w-4 h-4 text-brand-500"></i> Đoàn kết – Rực lửa – Bứt phá
           </div>
           <h1 class="font-heading font-black text-4xl sm:text-6xl lg:text-7xl leading-tight tracking-tight uppercase">
             FC AUTO <br/><span class="gradient-text">CHUNG ĐỨC</span>
           </h1>
-          <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto md:mx-0 leading-relaxed" id="hero-desc">
+          <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto md:mx-0 leading-relaxed">
             Nơi hội tụ những trái tim chung nhịp đập đam mê túc cầu. Kết nối sức mạnh tập thể, cống hiến những trận cầu mãn nhãn và lưu giữ từng khoảnh khắc thanh xuân rực rỡ.
           </p>
           <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
@@ -121,17 +123,18 @@
           </div>
         </div>
 
-        <!-- Hero Card Image -->
-        <div class="md:col-span-5 relative">
-          <div class="relative mx-auto w-full max-w-lg rounded-3xl overflow-hidden border-2 border-brand-500/30 shadow-2xl shadow-brand-500/20 aspect-[16/10] bg-slate-800">
-            <img id="hero-img" src="./tapthe.png" alt="Đội bóng FC Auto Chung Đức" class="w-full h-full object-cover object-center"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f19] via-transparent to-transparent opacity-80"></div>
-            <div class="absolute bottom-4 left-5 right-5">
-              <p class="text-[11px] font-bold text-brand-400 uppercase tracking-widest">Slogan</p>
-              <p class="text-base sm:text-lg font-heading font-bold text-white">Chơi hết mình, gắn kết bền lâu!</p>
+        <!-- Khung ảnh Banner Tập thể ngang tỉ lệ vàng 16:10 -->
+        <div class="md:col-span-6 relative">
+          <div class="relative mx-auto w-full max-w-xl rounded-3xl overflow-hidden border-2 border-brand-500/40 shadow-2xl shadow-brand-500/25 aspect-[16/10] bg-slate-900 flex items-center justify-center">
+            <img id="hero-img" src="https://i.postimg.cc/Dyyq7ZNr/z7945011302060-7524adcf583aa9c0c36c6a70f78e8891.jpg" alt="Tập thể FC Auto Chung Đức" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80';"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f19] via-transparent to-transparent opacity-85 pointer-events-none"></div>
+            <div class="absolute bottom-5 left-6 right-6 pointer-events-none">
+              <p class="text-xs font-bold text-brand-400 uppercase tracking-widest">Slogan Đội Bóng</p>
+              <p class="text-lg sm:text-xl font-heading font-bold text-white mt-0.5">Chơi hết mình, gắn kết bền lâu!</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -145,13 +148,11 @@
         <div class="w-16 h-1 bg-brand-500 mx-auto mt-4 rounded-full"></div>
       </div>
 
-      <div class="relative border-l-2 border-slate-800 ml-4 md:ml-32 space-y-12" id="timeline-container">
-        <!-- Tự động nạp dữ liệu từ Javascript -->
-      </div>
+      <div class="relative border-l-2 border-slate-800 ml-4 md:ml-32 space-y-12" id="timeline-container"></div>
     </div>
   </section>
 
-  <!-- Thành Viên Cống Hiến (MVP) -->
+  <!-- Vinh Danh Cống Hiến (MVP) -->
   <section id="mvp" class="py-24 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-2xl mx-auto mb-16">
@@ -164,7 +165,7 @@
         <div class="grid md:grid-cols-12 gap-8 items-center">
           <div class="md:col-span-5 text-center">
             <div class="w-48 h-48 md:w-60 md:h-60 mx-auto rounded-2xl overflow-hidden border-4 border-brand-500 shadow-xl shadow-brand-500/30 bg-slate-800">
-              <img id="mvp-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Đội trưởng mẫu mực" class="w-full h-full object-cover"/>
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Đội trưởng mẫu mực" class="w-full h-full object-cover"/>
             </div>
             <div class="inline-block mt-4 px-4 py-1 rounded-full bg-brand-500 text-white font-bold text-xs uppercase">
               Linh Hồn Đội Bóng
@@ -175,8 +176,8 @@
             <div class="flex items-center gap-2 text-brand-400 font-bold text-sm">
               <i data-lucide="award" class="w-5 h-5"></i> Cầu Thủ Xuất Sắc & Trưởng Ban Điều Hành
             </div>
-            <h3 class="text-3xl font-heading font-extrabold text-white" id="mvp-name">Chung Đức & Ban Cán Sự</h3>
-            <p class="text-slate-300 leading-relaxed text-sm" id="mvp-desc">
+            <h3 class="text-3xl font-heading font-extrabold text-white">Chung Đức & Ban Cán Sự</h3>
+            <p class="text-slate-300 leading-relaxed text-sm">
               Người luôn giữ lửa nhiệt huyết, lo chu toàn từ khâu sân bãi, trang thiết bị thi đấu đến tinh thần gắn kết của từng thành viên. Là điểm tựa vững chắc cho toàn đội.
             </p>
             <div class="grid grid-cols-3 gap-4 pt-4">
@@ -208,9 +209,7 @@
         <div class="w-16 h-1 bg-brand-500 mx-auto mt-4 rounded-full"></div>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6" id="squad-container">
-        <!-- Tự động nạp thành viên từ Javascript -->
-      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6" id="squad-container"></div>
     </div>
   </section>
 
@@ -282,9 +281,7 @@
         <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Gắn Kết & Mở Rộng</span>
         <h3 class="text-xl font-heading font-bold text-white mt-1">Các Đội Bóng Đã Từng Giao Lưu</h3>
       </div>
-      <div class="flex flex-wrap items-center justify-center gap-6 md:gap-12" id="rivals-container">
-        <!-- Tự động nạp đối tác -->
-      </div>
+      <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6" id="rivals-container"></div>
     </div>
   </section>
 
@@ -297,9 +294,7 @@
         <div class="w-16 h-1 bg-brand-500 mx-auto mt-4 rounded-full"></div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-container">
-        <!-- Tự động nạp ảnh từ Javascript -->
-      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-container"></div>
     </div>
   </section>
 
@@ -319,13 +314,9 @@
     </div>
   </footer>
 
-  <!-- ============================================================== -->
-  <!-- KHU VỰC CẤU HÌNH & CHỈNH SỬA DỮ LIỆU DỄ DÀNG SAU NÀY             -->
-  <!-- ============================================================== -->
+  <!-- DỮ LIỆU CẤU HÌNH -->
   <script>
-    // 📝 Bạn chỉ cần chỉnh sửa nội dung bên trong biến siteData này:
     const siteData = {
-      // 1. Quá trình phát triển
       history: [
         {
           period: "Giai Đoạn Khởi Đầu",
@@ -343,21 +334,15 @@
           desc: "Tích cực giao lưu với nhiều đội bóng phong trào trong khu vực, duy trì lối chơi cống hiến, fair-play."
         }
       ],
-
-      // 2. Danh sách cầu thủ
       squad: [
         { name: "Đức Chung", position: "Tiền Đạo #9", desc: "Sát thủ vòng cấm", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" },
         { name: "Văn Linh", position: "Tiền Vệ #10", desc: "Nhạc trưởng tuyến giữa", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" },
         { name: "Minh Tuấn", position: "Hậu Vệ #4", desc: "Hòn đá tảng phòng ngự", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80" },
         { name: "Hải Đăng", position: "Thủ Môn #1", desc: "Người nhện khung gỗ", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80" }
       ],
-
-      // 3. Đội bóng giao lưu
       rivals: [
         "FC AN HIỀN", "FC PHỤ TÙNG AUTO", "FC ANH EM HÀ NAM", "FC LIÊN QUÂN XE HƠI"
       ],
-
-      // 4. Hình ảnh kỷ niệm
       gallery: [
         { title: "Trận cầu rực lửa mùa hè", img: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" },
         { title: "Ăn mừng siêu phẩm", img: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80" },
@@ -365,11 +350,9 @@
       ]
     };
 
-    // Hàm tự động hiển thị dữ liệu ra HTML
     function renderWebsite() {
-      // Render Lịch Sử
-      const historyContainer = document.getElementById('timeline-container');
-      historyContainer.innerHTML = siteData.history.map(item => `
+      // Timeline
+      document.getElementById('timeline-container').innerHTML = siteData.history.map(item => `
         <div class="relative pl-8 md:pl-12 group">
           <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-950 border-4 border-brand-500 group-hover:scale-125 transition-transform"></div>
           <span class="text-sm font-bold text-brand-400">${item.period}</span>
@@ -378,9 +361,8 @@
         </div>
       `).join('');
 
-      // Render Đội Hình
-      const squadContainer = document.getElementById('squad-container');
-      squadContainer.innerHTML = siteData.squad.map(p => `
+      // Squad
+      document.getElementById('squad-container').innerHTML = siteData.squad.map(p => `
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 text-center group hover:border-brand-500 transition-all">
           <div class="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4 border-2 border-slate-700 group-hover:border-brand-500 transition-colors">
             <img src="${p.img}" alt="${p.name}" class="w-full h-full object-cover"/>
@@ -391,17 +373,15 @@
         </div>
       `).join('');
 
-      // Render Đối tác giao lưu
-      const rivalsContainer = document.getElementById('rivals-container');
-      rivalsContainer.innerHTML = siteData.rivals.map(name => `
-        <div class="flex items-center gap-2 text-slate-300 font-heading font-bold text-sm bg-slate-800/60 px-4 py-2 rounded-xl border border-slate-800">
+      // Rivals
+      document.getElementById('rivals-container').innerHTML = siteData.rivals.map(name => `
+        <div class="flex items-center gap-2 text-slate-300 font-heading font-bold text-sm bg-slate-800/60 px-4 py-2.5 rounded-xl border border-slate-800">
           <span class="text-brand-400">⚽</span> ${name}
         </div>
       `).join('');
 
-      // Render Gallery
-      const galleryContainer = document.getElementById('gallery-container');
-      galleryContainer.innerHTML = siteData.gallery.map(g => `
+      // Gallery
+      document.getElementById('gallery-container').innerHTML = siteData.gallery.map(g => `
         <div class="relative group rounded-2xl overflow-hidden aspect-video border border-slate-800 bg-slate-900">
           <img src="${g.img}" alt="${g.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
@@ -410,7 +390,6 @@
         </div>
       `).join('');
 
-      // Khởi tạo icon
       lucide.createIcons();
     }
 
